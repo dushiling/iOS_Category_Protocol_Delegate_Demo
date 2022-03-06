@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title=@"协议页面";
    
     
         Mobile *Mb=[[Mobile alloc]init];

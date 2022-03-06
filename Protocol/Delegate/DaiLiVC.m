@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+    self.navigationItem.title=@"代理页面";
     
 }
 

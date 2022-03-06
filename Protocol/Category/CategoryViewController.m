@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title=@"分类页面";
    
            // 实例化
            MyClass *mc = [[MyClass alloc]init];
