@@ -8,7 +8,7 @@
 
 #import "DaiLiVC.h"
 #import "WeituoVC.h"
-
+#import "IBM.h"
 @interface DaiLiVC ()<WeituoDelegate>//1，遵守协议
 
 @end
@@ -18,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title=@"代理页面";
+    
+    
+    IBM *ibm=[[IBM alloc]init];
+    [ibm produce];
+    [ibm.delegate sale];
     
 }
 

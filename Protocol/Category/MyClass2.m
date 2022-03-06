@@ -9,6 +9,7 @@
 #import "MyClass2.h"
 
 @implementation MyClass2
+
 // 原有类方法实现
 
 -(void)method1{

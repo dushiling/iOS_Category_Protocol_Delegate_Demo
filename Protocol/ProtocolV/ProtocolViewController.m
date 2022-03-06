@@ -8,7 +8,7 @@
 
 #import "ProtocolViewController.h"
 #import "Mobile.h"
-#import "IBM.h"
+
 @interface ProtocolViewController ()
 
 @end
@@ -26,9 +26,7 @@
         [Mb playMusic];
         [Mb playVideo];
     
-        IBM *ibm=[[IBM alloc]init];
-        [ibm produce];
-        [ibm.delegate sale];
+      
         
     
 }

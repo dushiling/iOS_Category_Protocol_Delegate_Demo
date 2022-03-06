@@ -18,6 +18,7 @@
     [super viewDidLoad];
     self.navigationItem.title=@"委托页面";
 
+
 }
 - (IBAction)BtnMethod:(UIButton *)sender {
     if ([self.delegate respondsToSelector:@selector(setUsername:)]) {
