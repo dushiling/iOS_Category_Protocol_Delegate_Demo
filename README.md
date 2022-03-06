@@ -10,7 +10,7 @@ Xcode： 13.1
 ![1](https://github.com/dushiling/project_image/blob/main/iOS_Category_Protocol_Delegate_Demo/yanshi.gif)
 
 ## 代码使用
-### Category
+- ### Category
 >分类可以在不创建子类的情况下，向已经存在的类添加新的方法
 >分类的用途可以归结为以下几点：
 >>1.在不创建继承类的情况下实现对已有类的扩展。
@@ -228,7 +228,7 @@ MyClass2.m
 ```
 
 
-### Protocol
+- ### Protocol
 >协议和类的定义类似，但是协议里面只定义了方法的声明，而没有实现。这很像Java语言中的接口，只定义做什么，而没有实现怎么做。这更有利于接口和实现的分离，程序的耦合性更低.
 
 协议 USB 和 Media：
@@ -297,7 +297,7 @@ MyClass2.m
 2022-03-06 18:50:54.306725+0800 Protocol[1350:49255] 放视频
 ```
 
-### Delegate
+- ### Delegate
 >代理的组成部分
 >> - 协议：用来指定代理双方可以做什么，必须做什么。
 >> - 代理：根据协议，完成委托方需要实现的功能(方法)。
